@@ -1,0 +1,21 @@
+
+.movieList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+input{
+    padding:5px;
+    width:100%;
+    outline: none;
+    border:2px solid ;
+    margin-bottom: 20px;
+    background-color: #e74c3c;
+    border-radius: 5px;
+    color:white;
+}
+input::placeholder{
+    color:white;
+}

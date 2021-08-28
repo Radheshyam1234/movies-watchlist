@@ -1,0 +1,38 @@
+.movieList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width:300px;
+    margin-top: 10px;
+    height: auto;
+    border:1px solid #8e44ad;
+    margin:5px;
+  
+}
+.card:hover{
+    box-shadow: 0px 7px 10px #bdc3c7;
+    cursor:pointer;
+}
+.card-title{
+    color:brown;
+}
+.card-text{
+    color:blue;
+}
+
+.img{
+    width:100%;
+}
+.card-footer{
+    display:flex;
+   
+}
+.card-footer .btn{
+margin-right: 20px;
+border-radius: 10px;
+
+}
