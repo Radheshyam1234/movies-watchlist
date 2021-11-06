@@ -37,7 +37,9 @@
     text-transform: uppercase;
   }
   a.active,a:hover{
-    background: #1b9bff;
+/*     background: #1b9bff; */
+       background: white;
+      color:black;
     transition: .5s;
   }
   .checkbtn{
